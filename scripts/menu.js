@@ -1,7 +1,7 @@
 const foodMenu = document.querySelector('.menu_list')
 const menu = [
     {
-        src: "/img/dish-1 1.png",
+        src: "img/dish-1 1.png",
         name: "Lumpia with sauce",
         details: {
             features: 'sfrrrrrrrssds',
@@ -9,7 +9,7 @@ const menu = [
         }
     },
     {
-        src: "/img/dish-3 1.png",
+        src: "img/dish-3 1.png",
         name: "Lumpia with sauce",
         details: {
             features: 'fgks2ds',
