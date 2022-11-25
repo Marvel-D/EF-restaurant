@@ -1,0 +1,47 @@
+main {
+  height: 100vh;
+  color: white;
+}
+
+#sign_up_comp {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#sign_up_comp article {
+  border: 6px double goldenrod;
+  padding: 10px;
+  height: 80%;
+  width: 60%;
+  display: grid;
+  grid-template-columns: 55% 45%;
+  height: 70%;
+}
+#sign_up_comp article #sign_up_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+#sign_up_comp article #sign_up_form #text {
+  display: inline-block;
+  padding: 0 5px;
+}
+#sign_up_comp article #sign_up_form #form {
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#sign_up_comp article #sign_up_form #form div {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  gap: 5px;
+  justify-content: space-between;
+}
+#sign_up_comp article #sign_up_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=sign_up.css.map */

@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+
+$bg-color: rgb(2, 18, 34);
+img {
+  max-width: 100%;
+}
+
+h1 {
+  color: azure;
+  font-size: 50px;
+}
+h2 {
+  color: beige;
+  font-size: 35px;
+}
+h3 {
+  color: goldenrod;
+}
+p {
+  color: azure;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  width: 100%;
+  background-color: $bg-color;
+}
+nav {
+  background-color: rgba(250, 235, 215, 0.847);
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 40px;
+  align-items: center;
+  height: 60px;
+  .nav_comp_1 {
+    a {
+      display: flex;
+      align-items: center;
+      p {
+        margin-left: 5px;
+        font-size: medium;
+        font-weight: 700;
+        color: $bg-color;
+      }
+    }
+  }
+  .nav_comp_2 {
+    ul {
+      display: flex;
+      li {
+        margin: 0 20px;
+        a {
+          color: $bg-color;
+        }
+        a:hover {
+          color: rgb(234, 109, 39);
+        }
+      }
+    }
+  }
+}
+header {
+  background-image: url("/img/bg-1.jpg");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  white-space: nowrap;
+  height: 700px;
+
+  article {
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    .landing_comp_1 {
+      height: 100%;
+      padding: 0 5%;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      p {
+        margin-bottom: 20px;
+        color: $bg-color;
+      }
+      .social_media_profiles {
+        margin-top: 20px;
+        ul {
+          display: flex;
+          li {
+            color: $bg-color;
+            margin: 0 10px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+    .landing_comp_2 {
+      display: flex;
+      justify-content: center;
+      .img_comp_2 {
+        border-radius: 20% 5%;
+      }
+    }
+  }
+}
+
+#top_foods {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  &_list {
+    padding: 20px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    li {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      border: 1px solid goldenrod;
+      padding: 30px 30px;
+    }
+  }
+}

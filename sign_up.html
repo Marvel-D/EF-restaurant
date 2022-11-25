@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="styles/mainStyle.css">
+    <link rel="stylesheet" href="styles/sign_up.css">
+    <link rel="stylesheet" href="styles/comps/form_styles.css">
+    <link rel="stylesheet" href="styles/comps/button_styles.css">
+
+    <!-- sites icon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/862a3af395.js" crossorigin="anonymous"></script>
+
+    <!-- title -->
+    <title>Sign Up</title>
+
+</head>
+
+<body>
+    <main>
+        <nav>
+            <div class="nav_comp_1">
+                <a href="/index.html">
+                    <img class="logo" src="/img/Frame 1.png" height="50px" width="40px">
+                    <p>Elite_Foods</p>
+                </a>
+
+            </div>
+            <!-- <div class="nav_comp_2">
+                <ul>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="">Events</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div> -->
+            <div class="nav_comp_3">
+                <a href="/login.html"><button class="button_comp_1 small_button">Book a table</button></a>
+                <!-- <a href="/login.html"><button class="button_comp_2 small_button">Sign-up</button></a> -->
+            </div>
+        </nav>
+        <section id="sign_up_comp">
+            <article>
+                <div id="sign_up_form">
+                    <div id="text">
+                        <p><b>START FOR FREE</b></p>
+                        <h2>Create new account.</h2>
+                        <p><small>Already A Member? <a href="/login.html">Log in</a></small></p>
+                    </div>
+                    <form id="form">
+                        <div>
+                            <input class="form_field" type="text" placeholder="First Name" autofocus required>
+                            <input class="form_field" type="text" placeholder="Last Name" autofocus required>
+                        </div>
+                        <input class="form_field" type="email" placeholder="Email" autofocus required>
+                        <input class="form_field" type="password" placeholder="Password" autofocus required>
+                        <input class="form_field" type="password" placeholder="Confirm Password" autofocus required>
+
+                        <button class="button_comp_3" type="submit" form="form">Submit</button>
+                    </form>
+                </div>
+                <div id="sign_up_img">
+                    <img src="/img/chef 1.png" height="400px" width="350px">
+                </div>
+            </article>
+        </section>
+
+    </main>
+</body>
+
+</html>

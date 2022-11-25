@@ -1,0 +1,43 @@
+main {
+  height: 100vh;
+  color: white;
+}
+// nav 2{
+// .nav_comp_2 {
+//   visibility: hidden;
+// }
+// .button_comp_1 {
+//   visibility: hidden;
+// }
+// }
+.login_comp {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  article {
+    border: 6px double goldenrod;
+    padding: 10px;
+    height: 60%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    #sign_in_text {
+      text-align: center;
+    }
+    #sign_in_form {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 40%;
+      div {
+        padding: 0 5px;
+        display: flex;
+        p {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}

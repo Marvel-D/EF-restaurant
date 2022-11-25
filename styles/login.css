@@ -1,0 +1,36 @@
+main {
+  height: 100vh;
+  color: white;
+}
+
+.login_comp {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.login_comp article {
+  border: 6px double goldenrod;
+  padding: 10px;
+  height: 60%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.login_comp article #sign_in_text {
+  text-align: center;
+}
+.login_comp article #sign_in_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 40%;
+}
+.login_comp article #sign_in_form div {
+  padding: 0 5px;
+  display: flex;
+}
+.login_comp article #sign_in_form div p {
+  margin-left: 5px;
+}/*# sourceMappingURL=login.css.map */
